@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Cars</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header, section, footer {
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Favorite Cars</h1>
+        <p>Welcome to my page where I showcase some of my favorite cars and their specifications.</p>
+    </header>
+
+    <section> <!-- Top of My favorite Cars -->
+        <h2>Top Cars I Admire</h2>
+        <h3>1. Ferrari F8 Tributo</h3>
+        <p>The Ferrari F8 Tributo is a stunning supercar known for its exceptional performance and beautiful design.</p>
+        <img src="" alt="Ferrari F8 Tributo" width="600">
+
+        <h3>2. Tesla Model S</h3>
+        <p>The Tesla Model S is a high-performance electric car with impressive range and cutting-edge technology.</p>
+        <img src="" alt="Tesla Model S" width="600">
+
+        <h3>3. Porsche 911</h3>
+        <p>The Porsche 911 is an iconic sports car renowned for its handling and engineering excellence.</p>
+        <img src="" alt="Porsche 911" width="600">
+    </section>
+
+    <section>
+        <h2>Car Specifications</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Car Model</th>
+                    <th>Top Speed</th>
+                    <th>0-60 mph</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ferrari F8 Tributo</td>
+                    <td>211 mph</td>
+                    <td>2.9 seconds</td>
+                    <td>$280,000</td>
+                </tr>
+                <tr>
+                    <td>Tesla Model S</td>
+                    <td>200 mph</td>
+                    <td>1.99 seconds</td>
+                    <td>$90,000</td>
+                </tr>
+                <tr>
+                    <td>Porsche 911</td>
+                    <td>191 mph</td>
+                    <td>3.0 seconds</td>
+                    <td>$110,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section> <!-- My Contacts -->
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <h4>Learn More About Cars</h4>
+        <a href="https://www.autotrader.com" target="_blank">AutoTrader</a><br>
+        <a href="https://www.motortrend.com" target="_blank">MotorTrend</a>
+    </footer>
+</body>
+</html>
